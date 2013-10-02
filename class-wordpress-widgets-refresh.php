@@ -76,12 +76,11 @@ class WordPress_Widgets_Refresh {
 		// Load public-facing style sheet and JavaScript.
 		//add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_styles' ) );
 		//add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
-
+		require_once 'inc/search-widget-replace.php';
 	}
 
 	function admin_menu_class( $classes ) {
-		wp_die( '<xmp>'. print_r( $classes, true ) .'</xmp>' );
-		$classes[] = 'nav-menus-php';
+		$classes .= ' nav-menus-php';
 		return $classes;
 	}
 
