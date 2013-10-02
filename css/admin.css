@@ -1,0 +1,14 @@
+.widget-areas {
+	overflow: hidden;
+}
+#menu-settings-column {
+	display: none; /* for now */
+}
+
+#nav-menus-frame {
+	margin-left: 0;
+}
+
+#wpfooter {
+	clear: both;
+}

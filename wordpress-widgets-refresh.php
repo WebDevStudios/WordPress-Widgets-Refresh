@@ -1,6 +1,6 @@
 <?php
 /**
- * WordPress Widgets Refresh
+ * WordPress Widgets (Menu Interface Prototype)
  *
  * @package   WordPressWidgetsRefresh
  * @author    Contributors to https://github.com/WebDevStudios/WordPress-Widgets-Refresh
@@ -8,7 +8,7 @@
  * @link      https://github.com/WebDevStudios/WordPress-Widgets-Refresh
  *
  * @wordpress-plugin
- * Plugin Name: WordPress Widgets Refresh
+ * Plugin Name: WordPress Widgets (Menu Interface Prototype)
  * Plugin URI:  https://github.com/WebDevStudios/WordPress-Widgets-Refresh
  * Description: Rethink WordPress Widgets
  * Version:     0.1.0
