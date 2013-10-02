@@ -525,7 +525,7 @@ function wp_widget_control_( $sidebar_args ) {
 	$widget_title = esc_html( strip_tags( $sidebar_args['widget_name'] ) );
 	$has_form = 'noform';
 
-	$sidebar_args['before_widget'] = str_ireplace( array( 'div', 'widget' ), array( 'li', 'widget- menu-item' ), $sidebar_args['before_widget'] );
+	$sidebar_args['before_widget'] = str_ireplace( array( 'div', 'widget' ), array( 'li', 'widget- menu-item menu-item-edit-inactive' ), $sidebar_args['before_widget'] );
 	$sidebar_args['after_widget'] = str_ireplace( 'div', 'li', $sidebar_args['after_widget'] );
 
 	echo $sidebar_args['before_widget']; ?>
@@ -565,7 +565,7 @@ function wp_list_widget_controls_( $sidebar ) {
 		echo "\t<p class='description'>$description</p>";
 		echo "</div>\n";
 	}
-	echo '<ul class="menu widget-area" id="widget-area-to-edit">'."\n";
+	echo '<ul class="menu widget-area ui-sortable" id="menu-to-edit">'."\n";
 	dynamic_sidebar( $sidebar );
 	echo "</ul>\n";
 	echo "</div>\n";
