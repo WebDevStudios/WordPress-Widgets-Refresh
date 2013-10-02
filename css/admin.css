@@ -12,3 +12,11 @@
 #wpfooter {
 	clear: both;
 }
+
+.nav-menus-php .item-edit:after, .widget-top a.widget-action:after, .control-section .accordion-section-title::after, .accordion-section-title::after {
+	content: '\f111';
+}
+
+.drag-instructions p {
+	font-size: 1.1em;
+}
